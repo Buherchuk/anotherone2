@@ -1,0 +1,77 @@
+.team-prop-for-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.team-persons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 270px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: #FEFEFE;
+}
+.team-persons:hover{
+    background-color: #2684F7;
+}
+.team-persons-photo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-position: top;
+    background-size: contain;
+}
+
+
+/* photo bacground styles*/
+.person-1{
+    background-image: url(../img/1.jpg);     
+}
+.person-2{
+    background-image: url(../img/2.jpg);     
+}
+.person-3{
+    background-image: url(../img/3.jpg);     
+}
+.person-4{
+    background-image: url(../img/4.jpg);     
+}
+.person-5{
+    background-image: url(../img/5.jpg);     
+}
+.person-6{
+    background-image: url(../img/6.jpg);     
+}
+.person-7{
+    background-image: url(../img/7.jpg);     
+}
+.person-8{
+    background-image: url(../img/8.jpg);
+}
+
+/* photo bacground styles*/
+
+/* text styles fot team page */
+
+.persons-name{
+    font-family: bahij;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.persons-info{
+    font-family: ChronicaPro-Regular;
+    color: #B1B1B1;
+}
+.persons-date{
+    font-family: ChronicaPro-Regular;
+    color: #B1B1B1;
+    margin: 30px;
+
+}
+
+/* text styles fot team page */

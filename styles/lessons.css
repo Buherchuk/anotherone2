@@ -1,0 +1,41 @@
+.main-content-container-list-cotrrection{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: bahij;
+    font-size: 24px;
+    padding: 0;
+}
+.list-header{    
+    justify-content: center;
+    margin: 25px;
+}
+.lesson-list, .lesson-list-header{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    width: 1200px;
+}
+
+.download-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
+    background-color: #FFFFFF;
+    background-image: url(../img/download.png);
+    background-position: center;
+    background-size: contain;
+}
+.lesson-list-container{
+    margin: 0 auto;
+}
+/* hovers */
+.download-icon:hover{
+    background-color: #2684F7;    
+}
+
+.lesson-list:hover{
+    background-color: #FFFFFF;
+    
+}
+/* hovers */
